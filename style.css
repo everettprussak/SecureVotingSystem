@@ -1,0 +1,10 @@
+.login_page_center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.login_page_heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
