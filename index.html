@@ -8,37 +8,33 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">SecureVotingSystem</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                <a class="navbar-brand" href="#">U.S. Elections - Electronic Voting System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
-    
-            <div class="login_page_center">
-                <div class=login_page_heading>
-                    <h1>Login Page</h1>
-                </div>
-                <form action="login_form">
-                    <label for="usr_name">Username</label>
-                    <input type="text" id="usr_name" name="usr_name">
-                    <br>
-                    <br>
-                    <label for="pwd">Password</label>
-                    <input type="text" id="pwd" name="pwd">
-                    <br>
-                    <br>
-                    <input type="submit" class= "btn btn-primary" value="Login to vote">
-                </form>
-                <br>
-                <br>
-                <br>
-                <br>
-                <button type="button" class="btn btn-primary">Create an account</button>
-                <br>
-                <br>
-                <button type="button" class="btn btn-primary">Forgot Password</button>
+        <div class="login_page_center">
+            <div class=login_page_heading>
+                <h1>Login Page</h1>
             </div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <small id="emailHelp" class="form-text text-muted"><a href = "">Forgot password?</small>
+                </div>
+                <br>
+                <a href = "loggedIn.html"><button type="submit" class="btn btn-primary">Submit</button></a>
+            </form>
+            <div class="dropdown-divider"></div>
+            <small id="emailHelp" class="form-text text-muted">Don't have an account? <a href = "">Sign up</a></small>
+        </div>
 
 
     </body>
