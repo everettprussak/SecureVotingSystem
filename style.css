@@ -24,3 +24,14 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.forgot_password_code_center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* text-align: center; */
+}
+.forgot_password_code_heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
