@@ -41,3 +41,14 @@ a {
   width: 50%;
   padding: 10px;
 }
+
+.sign_up_center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* text-align: center; */
+}
+.sign_up_heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
